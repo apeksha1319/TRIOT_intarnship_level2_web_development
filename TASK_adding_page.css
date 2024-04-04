@@ -1,0 +1,197 @@
+/* header {
+     height: 70px;
+    background-color: rgb(126, 102, 102);
+    color: white; 
+    text-align: center;
+    padding-top: 10px;
+    display: flexbox;
+    align-items: flex-start;
+    padding-right: 10px;
+     display: flex; 
+} */
+
+#header_div {
+    display: inline-block;
+    height: 50px;
+    background-color: #d6acac;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+#div_h {
+    color: #000000;
+    /* margin-left: 200px; */
+    width: 200px;
+    height: 70px;
+    /* background-color: brown; */
+    font-size: larger;
+    font-weight: 50px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+#header_div2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url(login_profile.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* position: ; */
+}
+
+#cloes_icon {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.fa-solid fa-xmark:hover {
+    color: red;
+}
+
+footer {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    background-color: #c495c5;
+    border: 1px;
+    position: fixed;
+    bottom: 0;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containar {
+    height: 350px;
+    width: 700px;
+    background-color: rgb(211, 181, 199);
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.containar_2 {
+    height: 60px;
+    width: 700px;
+    background-color: rgb(211, 181, 199);
+    display: flex;
+    justify-content: center;
+}
+
+#dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.to_do_app {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+
+#to_do_img {
+    height: 60px;
+    width: 60px;
+    background-image: url(writing_task.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+
+/* #do_do_list_boy_img {
+    height: 400px;
+    width: 600px;
+    background-image: url(coing_boy_img.jpg);
+    background-size: cover;
+     margin-left: 500px; 
+    margin-top: 150px;
+    margin-right: 50px;
+} */
+
+#row_list {
+    background-color: rgb(211, 181, 199);
+    display: flex;
+    justify-content: center;
+}
+
+#input_box {
+    border-radius: 30px;
+    height: 40px;
+    width: 500px;
+    border: none;
+    outline: none;
+    /* flex: 1; */
+    background-color: rgb(212, 212, 239);
+    cursor: pointer;
+}
+
+#add_task_button {
+    border-radius: 40px;
+    background-color: rgb(125, 201, 231);
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    /* background-image: url(llight_blue_coloar_baground.jpg); */
+    background-color: rgb(212, 212, 239);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+    border-color: black;
+}
+
+ul li.check {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.check::before {
+    background-image: url(checout_icon.jpg);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #edeef0;
+}

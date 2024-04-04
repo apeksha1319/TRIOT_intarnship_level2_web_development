@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <link rel="stylesheet" href="loginpageTRIOT.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <div id="first_login_page">
+            <div id="dif_for_profile_photo"></div><br><br>
+            <h1>Login to Add Tasks</h1><br>
+            <button id="login_button" onclick="document.location='LOGINpage2TRIOT.html'">Login</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the login button element
+            var loginButton = document.getElementById("login_button");
+
+            // Add click event listener to the login button
+            loginButton.addEventListener("click", function() {
+                // Open LOGINpage2TRIOT.html in the same tab/window
+                window.open("LOGINpage2TRIOT.html", "_self");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
